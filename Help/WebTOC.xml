@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="5672962e-ff34-4d26-9aa1-61ebe4c77c0e" Title="TDSBridge.Common Namespace" Url="html/56d1abc5-3261-db0a-b4a3-e41197bd7ec1.htm">
+    <HelpTOCNode Id="a07b2831-6d9a-4d17-9376-e71061254889" Title="BridgeAcceptor Class" Url="html/8e342a77-1618-78b5-69e0-2dfefaacfc8a.htm">
+      <HelpTOCNode Title="BridgeAcceptor Members" Url="html/8c4c03cb-093f-9639-94dc-f1746f689f21.htm" />
+      <HelpTOCNode Title="BridgeAcceptor Constructor " Url="html/16bc863c-011c-c36b-2b88-3979d2dfadf8.htm" />
+      <HelpTOCNode Id="a42d7106-3e15-4a45-add4-1b24a6a1a53f" Title="BridgeAcceptor Fields" Url="html/c7b221a4-ea1b-51a7-4ca0-ed7cbd04fa31.htm">
+        <HelpTOCNode Title="_iAcceptPort Field" Url="html/019aa47e-9355-8dd9-86a4-83fb05f9bb06.htm" />
+        <HelpTOCNode Title="_ipeSQLServer Field" Url="html/d029891c-2f9e-292a-5b04-0ba514e093bd.htm" />
+        <HelpTOCNode Title="sAccept Field" Url="html/5e9eb438-c079-d8db-f8f7-264c3bf6ce4c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="61f32f3b-e9d3-434c-ac4e-39ebd7df56b8" Title="BridgeAcceptor Methods" Url="html/fe443de0-d9db-8e54-13c6-e4a056d353f6.htm">
+        <HelpTOCNode Title="AcceptThread Method " Url="html/784ee2e2-5a73-6ce3-f2b4-d7027f0299aa.htm" />
+        <HelpTOCNode Title="OnConnectionAccepted Method " Url="html/ccd141dd-0515-c879-0917-635593091a95.htm" />
+        <HelpTOCNode Title="OnListeningThreadException Method " Url="html/a5623657-f8be-81d7-04b9-c0b3b2899f94.htm" />
+        <HelpTOCNode Title="Start Method " Url="html/5443739b-991b-cc5b-aea9-abfb4190d144.htm" />
+        <HelpTOCNode Title="Stop Method " Url="html/9a45ca6e-7bc6-f26f-3db6-a3d5f09e0166.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a0deb146-81d8-468f-ba7f-506a894d27db" Title="BridgeAcceptor Properties" Url="html/84aa3944-ff5b-83be-fc6d-71cce92b6b47.htm">
+        <HelpTOCNode Title="AcceptPort Property " Url="html/2076db45-1e02-9546-6494-ef34f4a648f8.htm" />
+        <HelpTOCNode Title="Enabled Property " Url="html/0f72bf88-a925-c09b-85e7-ac206df37b58.htm" />
+        <HelpTOCNode Title="SQLServerEndpoint Property " Url="html/dc8d8b07-609d-fa3f-f583-d9955e6f90e2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="431bd202-8419-424c-943b-ef158d92613a" Title="BridgeAcceptor Events" Url="html/ce597bd7-a39a-d0ea-bbc7-814360f19e30.htm">
+        <HelpTOCNode Title="BridgeException Event" Url="html/c420ab1e-e7bf-7493-4c2c-f6299a3e93a4.htm" />
+        <HelpTOCNode Title="ConnectionAccepted Event" Url="html/e8c1623c-310d-b11e-a30d-17275884cb2b.htm" />
+        <HelpTOCNode Title="ConnectionDisconnected Event" Url="html/9893d256-848a-45ae-1b7f-a315fd01350c.htm" />
+        <HelpTOCNode Title="ListeningThreadException Event" Url="html/24e6ef63-7e53-863d-8eb3-4c4c53b7f963.htm" />
+        <HelpTOCNode Title="TDSMessageReceived Event" Url="html/1d67a700-1911-22fb-96f5-7b289c17e811.htm" />
+        <HelpTOCNode Title="TDSPacketReceived Event" Url="html/1b09a09a-90a6-9b77-6dab-90053522e85d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="62cd480d-d6ce-489f-b996-851428109c91" Title="BridgedConnection Class" Url="html/a136532e-67a2-a741-dced-6be974805d6f.htm">
+      <HelpTOCNode Title="BridgedConnection Members" Url="html/b164a89c-d680-ee08-e133-492b1db8f9d2.htm" />
+      <HelpTOCNode Title="BridgedConnection Constructor " Url="html/ba5a01ee-5851-9274-5440-6c74a9671933.htm" />
+      <HelpTOCNode Id="bd9dc523-e42e-4622-9e2e-7214d285150a" Title="BridgedConnection Methods" Url="html/b3e71e72-cfb1-deb8-6354-4e33960c2b27.htm">
+        <HelpTOCNode Title="BridgeSQLThread Method " Url="html/2300cebe-910e-b7f2-f55d-dc7b64c6332d.htm" />
+        <HelpTOCNode Title="ClientBridgeThread Method " Url="html/c48687e1-5514-0fc3-d835-80f9db3822ee.htm" />
+        <HelpTOCNode Title="OnBridgeException Method " Url="html/5778d1df-f417-56d6-7952-85a15d058927.htm" />
+        <HelpTOCNode Title="OnConnectionDisconnected Method " Url="html/c9c07157-3ce6-0313-3d66-522128c56de5.htm" />
+        <HelpTOCNode Title="OnTDSMessageReceived Method " Url="html/4349961a-6943-2713-b610-8bbe288c7806.htm" />
+        <HelpTOCNode Title="OnTDSPacketReceived Method " Url="html/f9deb8f2-2f2e-240d-6da7-d03951aee377.htm" />
+        <HelpTOCNode Title="Start Method " Url="html/9dd70236-483e-caf1-812f-b59ae5f68ceb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e8169eb1-4a3f-4924-b106-1a060a4a6d56" Title="BridgedConnection Properties" Url="html/ca1298db-89f6-064b-266d-3817fa93f9c1.htm">
+        <HelpTOCNode Title="BridgeAcceptor Property " Url="html/0e8bd277-ea4a-78d3-9c32-1d9e11dbb9fb.htm" />
+        <HelpTOCNode Title="SocketCouple Property " Url="html/4a1f68b4-508f-7088-f9bb-de1dc359a7bb.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="BridgeExceptionDelegate Delegate" Url="html/a35f5d34-5295-c85b-8e33-cd1a123d8546.htm" />
+    <HelpTOCNode Title="ConnectionAcceptedDelegate Delegate" Url="html/30788920-d68c-e86b-bbfd-6c64d2cca39b.htm" />
+    <HelpTOCNode Title="ConnectionDisconnectedDelegate Delegate" Url="html/5d672271-bf04-c5bd-1d90-6c561aafd252.htm" />
+    <HelpTOCNode Title="ConnectionType Enumeration" Url="html/cf40c579-ef7a-03c9-5160-46314d896ac4.htm" />
+    <HelpTOCNode Title="ListeningThreadExceptionDelegate Delegate" Url="html/efb9ba2c-db51-1fc7-8b04-ae9534b1f801.htm" />
+    <HelpTOCNode Id="04cfcbc8-fc41-4c43-8232-ff1b93ac4aaa" Title="SocketCouple Class" Url="html/21ad46d5-358b-b0cf-2800-aafa618fb25c.htm">
+      <HelpTOCNode Title="SocketCouple Members" Url="html/ee0954de-443d-f987-734a-a452dc5e242e.htm" />
+      <HelpTOCNode Title="SocketCouple Constructor " Url="html/d96821ad-f64d-e263-eb27-10261b8f874e.htm" />
+      <HelpTOCNode Id="c2847f55-40c6-48f3-8997-32aa9c75353c" Title="SocketCouple Methods" Url="html/7ab861d9-cb23-7ea4-ab9d-4c723c81ed8c.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/d5cbb269-efef-45ad-0510-4808e05b1bd0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="04347f52-1d58-46c8-8f12-8d689bdda6bb" Title="SocketCouple Properties" Url="html/e7a25d56-bfdf-720d-c262-021939e40375.htm">
+        <HelpTOCNode Title="BridgeSQLSocket Property " Url="html/5232023e-85ef-77a2-cef2-01e558d4903d.htm" />
+        <HelpTOCNode Title="ClientBridgeSocket Property " Url="html/78349734-f959-5817-91bb-0a42d3a40dd8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="TDSMessageReceivedDelegate Delegate" Url="html/7480e308-687f-2d1f-645c-30020fdd80ae.htm" />
+    <HelpTOCNode Title="TDSPacketReceivedDelegate Delegate" Url="html/a2c0a1de-3f1c-b1c7-d585-3109b36c3dd5.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="43687029-d051-4ac1-be4f-b5116934a561" Title="TDSBridge.Common.Header Namespace" Url="html/65f3dfe7-7800-cd86-f9b3-c6c4624ebc93.htm">
+    <HelpTOCNode Id="d1d8f381-d32f-48d7-8eb1-1e8c8132c5e4" Title="AllHeader Class" Url="html/2384b80c-3da1-a393-70a2-c0c3994d3108.htm">
+      <HelpTOCNode Title="AllHeader Members" Url="html/ff48a5cc-bda4-e455-7f99-fba724b4b18f.htm" />
+      <HelpTOCNode Title="AllHeader Constructor " Url="html/455a2895-5866-022b-5f23-e8a04375d19f.htm" />
+      <HelpTOCNode Id="f2c12d6c-a2d1-422a-8570-6c8af387b376" Title="AllHeader Fields" Url="html/f4e43896-4d8a-5b45-5ad3-265ceea2c216.htm">
+        <HelpTOCNode Title="_bPayload Field" Url="html/df2cfa8f-a346-9040-fdae-8a70f7da1b00.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AllHeader Methods" Url="html/53f04f31-b4c5-0daa-15cc-0e5211005803.htm" />
+      <HelpTOCNode Id="e0159dad-9f5b-48cf-83b6-1679d8115ce9" Title="AllHeader Properties" Url="html/4709c10f-b83e-8165-78d4-ea5d9d99d76b.htm">
+        <HelpTOCNode Title="Length Property " Url="html/620e49ce-55aa-61da-2dd4-21841969b753.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="HeaderType Enumeration" Url="html/84590f58-7358-93fa-4cc9-997ea8610c8b.htm" />
+    <HelpTOCNode Id="a2051214-3313-4771-9db5-c4fb3b60529b" Title="StatusBitMask Class" Url="html/e1fa419f-f2c9-ef9c-02e7-2ad441ab109f.htm">
+      <HelpTOCNode Title="StatusBitMask Members" Url="html/5fb74a53-e231-29f5-452b-274a3f1cbc8e.htm" />
+      <HelpTOCNode Title="StatusBitMask Constructor " Url="html/f5034252-5cdb-d5d8-6e2e-cdf735470259.htm" />
+      <HelpTOCNode Id="79c5ecec-7ce6-477d-ab54-9684c51f3e9b" Title="StatusBitMask Fields" Url="html/5b94ad7a-a6da-fe35-53b7-ea9ae0df041d.htm">
+        <HelpTOCNode Title="END_OF_MESSAGE Field" Url="html/21005b3b-b66b-119d-8ae9-4ae402db50e8.htm" />
+        <HelpTOCNode Title="IGNORE_EVENT Field" Url="html/c6f374ab-5aa2-a162-20b6-c9c66127e982.htm" />
+        <HelpTOCNode Title="MULTI_PART_MESSAGE Field" Url="html/8b49893a-423d-5120-363a-52971262dd81.htm" />
+        <HelpTOCNode Title="NORMAL Field" Url="html/6126ecf9-9066-fd3b-9c22-f6269bd429d7.htm" />
+        <HelpTOCNode Title="RESET_CONNECTION Field" Url="html/64f8ab7d-4d59-f145-0340-cd6313bd4b6b.htm" />
+        <HelpTOCNode Title="RESET_CONNECTION_SKIP_TRAN Field" Url="html/a5e9b7cb-74df-21b8-b71d-781799d8f542.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StatusBitMask Methods" Url="html/ae8853b6-5e70-b5c4-ec48-dd0eb5a08c87.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="41654eef-41b0-49ad-9f98-cb518448256f" Title="TDSHeader Class" Url="html/29645646-e9b1-7941-7104-c5d277014f85.htm">
+      <HelpTOCNode Title="TDSHeader Members" Url="html/f58e7551-ec33-6068-6bc3-70d7cf3a7fde.htm" />
+      <HelpTOCNode Title="TDSHeader Constructor " Url="html/cbcc29f4-367f-8cbd-775a-335dd6e6bda9.htm" />
+      <HelpTOCNode Id="b218255a-da43-414b-a470-8e315581fc02" Title="TDSHeader Fields" Url="html/3ffbd50e-67a1-4b4e-6687-91d09749adf1.htm">
+        <HelpTOCNode Title="_Buffer Field" Url="html/871c0d3f-04d9-8125-25e4-7d28ba801a3b.htm" />
+        <HelpTOCNode Title="HEADER_SIZE Field" Url="html/d7424d1d-54d0-28dd-6e91-6326fd5240e7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3faa276e-24e0-4e07-aaca-135810cbbb53" Title="TDSHeader Methods" Url="html/a02de0fa-1aa7-cada-208a-13647fdb38b1.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/a5ce8fbb-abea-6d3e-b59a-7b67bda6219b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="56275790-6de5-4e1e-b546-f8d51773e62f" Title="TDSHeader Properties" Url="html/5f9611da-0777-ab0b-556a-7467c29aba6f.htm">
+        <HelpTOCNode Title="Item Property " Url="html/c0266d3a-4c5e-1d1c-f816-6a838a7bd19a.htm" />
+        <HelpTOCNode Title="LengthIncludingHeader Property " Url="html/6d004ba7-af9d-235b-1e5d-7710b21c6fb3.htm" />
+        <HelpTOCNode Title="PayloadSize Property " Url="html/bf3feff6-53d1-8261-bcf2-d52c2d501df6.htm" />
+        <HelpTOCNode Title="StatusBitMask Property " Url="html/591af2db-ec98-d4da-f1f4-d4bef0ea069f.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/543a1a43-1494-25af-77cf-370a08f9a9be.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="59fed03e-3294-4159-b01e-f2bc694b7397" Title="TDSBridge.Common.Message Namespace" Url="html/43c01ae1-be4c-9aab-4776-8eca9a66b802.htm">
+    <HelpTOCNode Id="4465ca21-b048-4201-bc0e-c377eca1b559" Title="SQLBatchMessage Class" Url="html/37551f0d-a381-72ee-e062-9208128461a2.htm">
+      <HelpTOCNode Title="SQLBatchMessage Members" Url="html/34817e4c-645e-8c06-45cd-98e42e7626fd.htm" />
+      <HelpTOCNode Id="01d963d4-0832-42b8-909c-a5d8bae3b041" Title="SQLBatchMessage Constructor " Url="html/0d989c65-45b4-e78b-df54-bafa06aac009.htm">
+        <HelpTOCNode Title="SQLBatchMessage Constructor " Url="html/c2b7b52e-7161-3dfe-d519-a43664561c27.htm" />
+        <HelpTOCNode Title="SQLBatchMessage Constructor (TDSPacket)" Url="html/2b78562f-7a08-b72e-e167-c4f4160c4eea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SQLBatchMessage Fields" Url="html/ba9f7e39-fb08-058b-c4c9-74be816abb5d.htm" />
+      <HelpTOCNode Id="01ad6f5d-143c-460e-a985-e2302f9ff65f" Title="SQLBatchMessage Methods" Url="html/a5c6190e-a703-d366-a354-f18b02f6eb12.htm">
+        <HelpTOCNode Title="GetBatchText Method " Url="html/a6b3e7bf-2937-7b13-6f11-a8b83bca6992.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SQLBatchMessage Properties" Url="html/b8798d03-b722-f006-d7bf-b50a6108419d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7666172b-4619-4bfb-9571-e584e47c09ea" Title="TDSMessage Class" Url="html/1997bd63-b947-bbe1-f089-b2f859dcd146.htm">
+      <HelpTOCNode Title="TDSMessage Members" Url="html/6ee627fb-97f9-e56f-c801-df8258d8511b.htm" />
+      <HelpTOCNode Id="5afcff26-524a-406c-bdfa-7242f637f928" Title="TDSMessage Constructor " Url="html/b9418e4f-a82a-8a66-002d-10a04e91a838.htm">
+        <HelpTOCNode Title="TDSMessage Constructor " Url="html/9fad274e-4a98-b6a3-88dd-eafd4677eb83.htm" />
+        <HelpTOCNode Title="TDSMessage Constructor (TDSPacket)" Url="html/710d6151-ce98-a11a-384b-6ebe91b2c292.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0eeee69e-720b-4086-a093-de3df8361955" Title="TDSMessage Fields" Url="html/58ca8781-f3ed-058b-baca-94a06a14ac97.htm">
+        <HelpTOCNode Title="_lPackets Field" Url="html/a99db4fd-a9a3-d57d-3abe-d89567806649.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="80f76136-f841-4d6c-b39d-855cf7b3e1b5" Title="TDSMessage Methods" Url="html/e53627a0-ead1-7d5e-d668-17d27643fb55.htm">
+        <HelpTOCNode Title="AssemblePayload Method " Url="html/d1dfcdcc-a553-0cb6-df89-7fba8869ebde.htm" />
+        <HelpTOCNode Title="CreateFromFirstPacket Method " Url="html/0e8bae67-2e37-8be1-5031-6173ce0a57f7.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/3847463a-07e2-3017-67a7-07eca6dc4bc6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d19bd264-f64d-4a34-bf57-5d1ef71937b2" Title="TDSMessage Properties" Url="html/02993c5f-302a-c156-fb1d-e3e074af6244.htm">
+        <HelpTOCNode Title="IsComplete Property " Url="html/eb60c04a-8a63-672e-7b1a-b02674266538.htm" />
+        <HelpTOCNode Title="Packets Property " Url="html/2a3e7160-c31b-d2a8-88b1-d0319e68e2a6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a3209b33-bf45-4d7f-9248-5526e8ced181" Title="TDSBridge.Common.Packet Namespace" Url="html/9f93a67c-8313-7674-0f60-7f6edbf7ddc1.htm">
+    <HelpTOCNode Id="b5e64997-dfc5-406b-be40-d7b04665e919" Title="TDSPacket Class" Url="html/745e1d10-82d1-42a0-abe5-6e8ed9d6fd83.htm">
+      <HelpTOCNode Title="TDSPacket Members" Url="html/a15a0bda-cd7b-f526-c0c1-c950a1ee8b30.htm" />
+      <HelpTOCNode Id="6e8351e8-eccb-4477-9a24-bababce46306" Title="TDSPacket Constructor " Url="html/dc552c4b-9bfb-9be0-f74a-b3e6359bfb7c.htm">
+        <HelpTOCNode Title="TDSPacket Constructor (Byte[])" Url="html/3bf3d460-6769-f3ae-2a10-f00076001bff.htm" />
+        <HelpTOCNode Title="TDSPacket Constructor (Byte[], Byte[], Int32)" Url="html/8e8e9e65-7c42-ef63-e03e-e79495e57b6d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c24172ac-16df-4d27-95c6-adb0868d37ba" Title="TDSPacket Fields" Url="html/526d7397-cb92-28c8-faab-8bccd8bf12da.htm">
+        <HelpTOCNode Title="_header Field" Url="html/b55e1d27-8fe5-38f7-fcaa-b7ea3c3453cd.htm" />
+        <HelpTOCNode Title="_payload Field" Url="html/7d9fcd11-c15b-41c1-667e-3a4b1c15a1a6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d88e39a2-e64a-44d7-9843-6382e07811eb" Title="TDSPacket Methods" Url="html/c9c3d578-40b6-1a3b-8ffc-772b248ba320.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/63f6382d-89c0-2cee-d8cb-b441af6f9706.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="58d8e682-9a02-412d-a149-ec2fd2deead0" Title="TDSPacket Properties" Url="html/e32a9c90-d902-cb52-16c3-f611c95cda94.htm">
+        <HelpTOCNode Title="Header Property " Url="html/c28177be-c7d2-6e8d-02ae-6ed4ed213bf7.htm" />
+        <HelpTOCNode Title="Payload Property " Url="html/022e8600-5900-8760-9770-d005860265b3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

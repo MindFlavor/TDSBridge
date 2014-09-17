@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDSBridge", "TDSBridge\TDSBridge.csproj", "{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDSBridge.Common", "TDSBridge.Common\TDSBridge.Common.csproj", "{899C6087-EACC-4263-88A0-233F74E5B20F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://vstfcodebox:8080/tfs/tau
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TDSBridge.Common\\TDSBridge.Common.csproj
+		SccProjectName1 = TDSBridge.Common
+		SccLocalPath1 = TDSBridge.Common
+		SccProjectUniqueName2 = TDSBridge\\TDSBridge.csproj
+		SccProjectName2 = TDSBridge
+		SccLocalPath2 = TDSBridge
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}.Debug|x86.ActiveCfg = Debug|x86
+		{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}.Debug|x86.Build.0 = Debug|x86
+		{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}.Release|Any CPU.ActiveCfg = Release|x86
+		{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}.Release|x86.ActiveCfg = Release|x86
+		{DEBF7AB9-CED5-4620-A686-9AAF4FEA34C9}.Release|x86.Build.0 = Release|x86
+		{899C6087-EACC-4263-88A0-233F74E5B20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899C6087-EACC-4263-88A0-233F74E5B20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899C6087-EACC-4263-88A0-233F74E5B20F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{899C6087-EACC-4263-88A0-233F74E5B20F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{899C6087-EACC-4263-88A0-233F74E5B20F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{899C6087-EACC-4263-88A0-233F74E5B20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899C6087-EACC-4263-88A0-233F74E5B20F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899C6087-EACC-4263-88A0-233F74E5B20F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{899C6087-EACC-4263-88A0-233F74E5B20F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{899C6087-EACC-4263-88A0-233F74E5B20F}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
