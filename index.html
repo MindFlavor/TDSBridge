@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="TDS Bridge : TDS proxy library">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>TDS Bridge</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/MindFlavor/TDSBridge">View on GitHub</a>
+
+          <h1 id="project_title">TDS Bridge</h1>
+          <h2 id="project_tagline">TDS proxy library</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/MindFlavor/TDSBridge/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/MindFlavor/TDSBridge/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="tdsbridge" class="anchor" href="#tdsbridge" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TDSBridge</h1>
+
+<h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h2>
+
+<p>A C# library to implement a SQL Server TDS protocol bridge with packet inspection. It basically relays TDS messages to a SQL server and sends the answer back; it's almost completely transparent to applications (it even works with server side forced encryption). The library right now recognizes the AttentionMessage, RPCRequestMessage and SQLBatchMessage. Everything else falls into the generic TDSMessage class. I will add more specialized classes in the future. It comes with a simple console application that can be useful for didactic purposes, but I plan to develop a more elegant interactive console. Developed following the [MS-TDS]: Tabular Data Stream Protocol specification version 12.0. </p>
+
+<p>Reference:
+[MS-TDS] Tabular Data Stream Protocol <a href="http://msdn.microsoft.com/en-us/library/dd304523.aspx">http://msdn.microsoft.com/en-us/library/dd304523.aspx</a>.</p>
+
+<p>Here is a screenshot of the sample console inspector. As you can see, even though I connected to the bridge I can still access SQL Server as normal. You can also see the SQL Batch statement inspected by the library:</p>
+
+<p><img src="http://i.imgur.com/FKiuVgb.png" alt=""></p>
+
+<div class="highlight highlight-source-sql"><pre><span class="pl-k">SELECT</span> @@SERVERNAME;
+<span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> <span class="pl-c1">sys</span>.<span class="pl-c1">dm_exec_connections</span>;</pre></div>
+
+<p>To use the sample, please specify the listening port (must be available) and the SQL Server TCP endpoint (no browser support right now). For example if I have a SQL Instance running on my PC listening on 1433 this could be the syntax:</p>
+
+<p><img src="http://i.imgur.com/4xCWRo2.png" alt=""></p>
+
+<p>The resulting connections could be like this diagram:</p>
+
+<p><img src="http://i.imgur.com/yV6SgbK.png" alt=""></p>
+
+<p>If you need to parse the output you can redirect it to a file (as you will see, SSMS intellisense will bloat your window :) ).</p>
+
+<p>Please feel free to use it in your demo/classes and if you need any help don't hesitate to contact me.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">TDS Bridge maintained by <a href="https://github.com/MindFlavor">MindFlavor</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
