@@ -26,7 +26,7 @@ namespace TDSBridge.Common
         protected System.Net.IPEndPoint _ipeSQLServer;
 
         protected Socket sAccept;
-        private Thread tAccept = null;        
+        private Thread tAccept = null;
         #endregion
 
         #region Properties
@@ -122,21 +122,29 @@ namespace TDSBridge.Common
 
                     ManualResetEvent mre = new ManualResetEvent(false);
 
-                    IAsyncResult res= sAccept.BeginAccept(new AsyncCallback((IAsyncResult ia) =>
-                        {
-                            bool fic = ia.IsCompleted;
+                    IAsyncResult res = sAccept.BeginAccept(new AsyncCallback((IAsyncResult ia) =>
+                         {
+                             try
+                             {
+                                 bool fic = ia.IsCompleted;
 
-                            sc.ClientBridgeSocket = sAccept.EndAccept(ia);
+                                 sc.ClientBridgeSocket = sAccept.EndAccept(ia);
 
-                            OnConnectionAccepted(sc.ClientBridgeSocket);
+                                 OnConnectionAccepted(sc.ClientBridgeSocket);
 
-                            sc.BridgeSQLSocket = new Socket(SQLServerEndpoint.AddressFamily, SocketType.Stream, ProtocolType.IP);
-                            sc.BridgeSQLSocket.Connect(SQLServerEndpoint);
+                                 sc.BridgeSQLSocket = new Socket(SQLServerEndpoint.AddressFamily, SocketType.Stream, ProtocolType.IP);
+                                 sc.BridgeSQLSocket.Connect(SQLServerEndpoint);
 
-                            BridgedConnection bc = new BridgedConnection(this, sc);
-                            bc.Start();
-                            mre.Set();
-                        }), null);
+                                 BridgedConnection bc = new BridgedConnection(this, sc);
+                                 bc.Start();
+                                 mre.Set();
+                             }
+                             catch (Exception ex)
+                             {
+                                 OnListeningThreadException(sAccept, ex);
+                                 mre.Set();
+                             }
+                         }), null);
 
                     mre.WaitOne();
                 }
